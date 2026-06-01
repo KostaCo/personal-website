@@ -543,7 +543,7 @@ body {
 
 .form-submit-btn {
     width: 100%;
-    background-color: #f7a3a3;
+    background-color: var(--accent-pink);
     color: #121919;
     border: none;
     padding: 14px;
