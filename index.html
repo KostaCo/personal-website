@@ -1,306 +1,413 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kosta Čolović | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://kostaco.github.io/">
-    <meta property="og:title" content="Kosta Čolović | Portfolio">
-    <meta property="og:description" content="Student informatike na Matematičkom fakultetu u Beogradu. Spoj računarstva, matematike i analize složenih problema.">
-    <meta property="og:image" content="https://kostaco.github.io/slike/og-preview.png">
-    
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://kostaco.github.io/">
-    <meta property="twitter:title" content="Kosta Čolović | Portfolio">
-    <meta property="twitter:description" content="Student informatike na Matematičkom fakultetu u Beogradu. Spoj računarstva, matematike i analize složenih problema.">
-    <meta property="twitter:image" content="https://kostaco.github.io/slike/og-preview.png">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kostaco.github.io/" />
+    <meta property="og:title" content="Kosta Čolović | Portfolio" />
+    <meta
+      property="og:description"
+      content="Student informatike na Matematičkom fakultetu u Beogradu. Spoj računarstva, matematike i analize složenih problema."
+    />
+    <meta
+      property="og:image"
+      content="https://kostaco.github.io/slike/og-preview.png"
+    />
 
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://kostaco.github.io/" />
+    <meta property="twitter:title" content="Kosta Čolović | Portfolio" />
+    <meta
+      property="twitter:description"
+      content="Student informatike na Matematičkom fakultetu u Beogradu. Spoj računarstva, matematike i analize složenih problema."
+    />
+    <meta
+      property="twitter:image"
+      content="https://kostaco.github.io/slike/og-preview.png"
+    />
+  </head>
+  <body>
     <!-- NAVIGACIONA TRAKA -->
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="nav-logo">
-                <span class="logo-icon">&lt;/&gt;</span> Kosta Čolović
-            </a>
-            
-            <div class="nav-links">
-                <a href="#features">Projekti</a>
-                <a href="#about">O meni</a>
-                <a href="#academic">Studije</a>
-                <a href="#kontakt">Kontakt</a>
-            </div>
+      <div class="nav-container">
+        <a href="#" class="nav-logo">
+          <span class="logo-icon">&lt;/&gt;</span> Kosta Čolović
+        </a>
 
-            <div class="nav-btn-container">
-                <a href="https://github.com/KostaCo" target="_blank" class="nav-github-btn">
-                    <span class="git-icon"><i class="fa-brands fa-github"></i></span> GitHub
-                </a>
-            </div>
+        <div class="nav-links">
+          <a href="#features">Projekti</a>
+          <a href="#about">O meni</a>
+          <a href="#academic">Studije</a>
+          <a href="#kontakt">Kontakt</a>
         </div>
+
+        <div class="nav-btn-container">
+          <a
+            href="https://github.com/KostaCo"
+            target="_blank"
+            class="nav-github-btn"
+          >
+            <span class="git-icon"><i class="fa-brands fa-github"></i></span>
+            GitHub
+          </a>
+        </div>
+      </div>
     </nav>
 
     <!-- GLAVNI SADRŽAJ -->
     <main class="main-content">
-        
-        <!-- HERO SEKCIJA -->
-        <section class="hero-section">
-            <span class="hero-icon">&lt;/&gt;</span>
-            <p class="greeting">Zdravo! Ja sam Kosta Čolović,</p>
-            <h1 class="hero-title">student informatike na Matematičkom fakultetu u Beogradu</h1>
-            <p class="hero-desc">
-                Moj cilj je da spojim ljubav prema matematici, programiranju i analizi složenih 
-                problema kako bih produbio znanje i stvarao praktična, inovativna i efikasna rešenja.
+      <!-- HERO SEKCIJA -->
+      <section class="hero-section">
+        <span class="hero-icon">&lt;/&gt;</span>
+        <p class="greeting">Zdravo! Ja sam Kosta Čolović,</p>
+        <h1 class="hero-title">
+          student informatike na Matematičkom fakultetu u Beogradu
+        </h1>
+        <p class="hero-desc">
+          Moj cilj je da spojim ljubav prema matematici, programiranju i analizi
+          složenih problema kako bih produbio znanje i stvarao praktična,
+          inovativna i efikasna rešenja.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#kontakt" class="btn-primary">Kontaktiraj me</a>
+          <a href="#features" class="btn-secondary">Moji projekti</a>
+        </div>
+      </section>
+
+      <!-- SEKCIJA SA KVADRATIMA (PROJEKTI / CAPABILITIES) -->
+      <section class="features-section" id="features">
+        <div class="features-badge">// MOJI PROJEKTI</div>
+
+        <h2 class="features-main-title">Širina znanja, dubina analize.</h2>
+        <p class="features-subtitle">
+          Spoj računarstva, matematike i strasti prema detaljima. Pokreće me
+          želja da rastavim složene sisteme na delove kako bih shvatio kako
+          zaista funkcionišu - od prvog bita memorije do šire filozofije iza
+          koda.
+        </p>
+
+        <div class="features-grid">
+          <a href="#projekti-cpp" class="card-link">
+            <div class="feature-card">
+              <div class="card-header">
+                <div class="card-icon-wrapper">
+                  <span class="card-icon">📜</span>
+                </div>
+                <span class="status-progress">(in progress...)</span>
+              </div>
+              <h5 class="card-small-title">istraživački rad</h5>
+              <h3 class="card-title">
+                Ekonomija baze: Odabir optimalne osnove brojevnog sistema i
+                primene
+              </h3>
+              <p class="card-text">
+                Ovaj rad kroz matematičku analizu dokazuje da broj e
+                (aproksimiran bazom 3) predstavlja najefikasniju osnovu
+                brojevnog sistema, te istražuje njegovu praktičnu primenu u
+                računarstvu, fraktalima i statistici.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://kostaco.github.io/contextual-timeline/"
+            class="card-link"
+            target="_blank"
+          >
+            <div class="feature-card">
+              <div class="card-header">
+                <div class="card-icon-wrapper">
+                  <span class="card-icon">🚀</span>
+                </div>
+                <span class="status-progress">(in progress...)</span>
+              </div>
+              <h5 class="card-small-title">aplikacija</h5>
+              <h3 class="card-title">Contextual Timeline</h3>
+              <p class="card-text">
+                Contextual Timeline postavlja knjige i istoriju rame uz rame na
+                jedinstvenoj, interaktivnoj mapi. Kreiran pomoću vis.js
+                biblioteke, ovaj veb alat ti pomaže da vizuelno povežeš koncepte
+                i sagledaš širi istorijski kontekst literature.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="materijali/AIuAstronomiji.pdf"
+            class="card-link"
+            target="_blank"
+          >
+            <div class="feature-card">
+              <div class="card-header">
+                <div class="card-icon-wrapper">
+                  <span class="card-icon">📜</span>
+                </div>
+              </div>
+              <h5 class="card-small-title">istraživački rad</h5>
+              <h3 class="card-title">
+                AI u astronomiji: Otkrivanje egzoplaneta i analiza svemirskih
+                podataka
+              </h3>
+              <p class="card-text">
+                Primena modela mašinskog učenja i dubokih neuronskih mreža u
+                obradi velikih astronomskih skupova podataka, sa fokusom na
+                analizu svetlosnih krivih i automatizovanu detekciju
+                egzoplaneta.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="materijali/NadgledanoMasinskoUcenje.pdf"
+            class="card-link"
+            target="_blank"
+          >
+            <div class="feature-card">
+              <div class="card-header">
+                <div class="card-icon-wrapper">
+                  <span class="card-icon">📜</span>
+                </div>
+              </div>
+              <h5 class="card-small-title">istraživački rad</h5>
+              <h3 class="card-title">Nadgledano mašinsko učenje</h3>
+              <p class="card-text">
+                Nagrađivan maturski rad koji pruža detaljan teorijski i
+                praktični pregled algoritama nadgledanog mašinskog učenja. Rad
+                obuhvata analizu regresija, stabala odlučivanja, SVM-a i
+                neuronskih mreža, uz osvrt na istorijski razvoj i etičku
+                budućnost veštačke inteligencije.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/KostaCo/AstroJump"
+            class="card-link"
+            target="_blank"
+          >
+            <div class="feature-card">
+              <div class="card-header">
+                <div class="card-icon-wrapper">
+                  <span class="card-icon">👾</span>
+                </div>
+              </div>
+              <h5 class="card-small-title">video-igra</h5>
+              <h3 class="card-title">AstroJump</h3>
+              <p class="card-text">
+                Endless-runner 2D igra razvijena u Unity okruženju. Projekat
+                obuhvata implementaciju fizike kretanja i skakanja, generisanje
+                proceduralnih prepreka (asteroida), upravljanje stanjima igre
+                (Game Loop) i praćenje rezultata pomoću C# skripti.
+              </p>
+            </div>
+          </a>
+
+          <!-- KARTICA 6 (Coming Soon Placeholder) -->
+          <div class="feature-card card-coming-soon">
+            <div class="card-header">
+              <div class="card-icon-wrapper">
+                <span class="card-icon">⏳</span>
+              </div>
+            </div>
+            <h3 class="card-title">Sledeći projekat...</h3>
+            <p class="card-text">Uskoro...</p>
+            <div class="coming-soon-badge">// COMING SOON</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEKCIJA O MENI -->
+      <section class="about-section" id="about">
+        <div class="about-badge">// KO SAM JA</div>
+        <div class="about-container">
+          <div class="about-image-wrapper">
+            <img src="slike/ja.png" alt="Kosta Čolović" class="about-image" />
+          </div>
+
+          <div class="about-text-wrapper">
+            <h2 class="about-title">O meni</h2>
+            <p class="about-p">
+              Zovem se Kosta Čolović i dolazim iz Beograda. Još od najranijeg
+              detinjstva fasciniran sam prirodnim naukama, tehnologijom i
+              računarima, što me je navelo da veoma rano počnem da
+              eksperimentišem sa elektronikom i programiranjem.
             </p>
-
-            <div class="hero-buttons">
-                <a href="#kontakt" class="btn-primary">Kontaktiraj me</a>
-                <a href="#features" class="btn-secondary">Moji projekti</a>
-            </div>
-        </section>
-
-        <!-- SEKCIJA SA KVADRATIMA (PROJEKTI / CAPABILITIES) -->
-        <section class="features-section" id="features">
-            <div class="features-badge">// MOJI PROJEKTI</div>
-            
-            <h2 class="features-main-title">Širina znanja, dubina analize.</h2>
-            <p class="features-subtitle">
-                Spoj računarstva, matematike i strasti prema detaljima. 
-                Pokreće me želja da rastavim složene sisteme na delove 
-                kako bih shvatio kako zaista funkcionišu - od prvog bita memorije do šire filozofije iza koda.
+            <p class="about-p">
+              Tokom osnovne škole isticao sam se na takmičenjima iz matematike,
+              fizike i biologije, a zahvaljujući kontinuiranim rezultatima
+              proglašen sam za učenika generacije. Od 2021. do 2025. pohađao sam
+              Matematičku gimnaziju u Beogradu, okružen ambicioznim vršnjacima i
+              zahtevnim programom, gde sam se posvetio razvoju projekata iz
+              oblasti veštačke inteligencije, softverskog inženjeringa i
+              istraživanja na granici između prirodnih nauka i filozofije.
+              Sklopio sam desetine računara za prijatelje, profesore i klijente,
+              pravio video-igrice, čitao o crnim rupama, kvantnoj mehanici,
+              filozofiji uma, etici veštačke inteligencije i bilo kojoj drugoj
+              temi koja mi je zapala za oko. Oduvek me je privlačilo razumevanje
+              kako (i zašto) stvari funkcionišu na najdubljem nivou, bilo da se
+              radi o algoritmima, prirodnim zakonima, astrofizičkim fenomenima
+              ili strukturi računarskih sistema.
             </p>
+            <p class="about-p">
+              U oktobru 2025. godine sam počeo da pohađam smer
+              <em>Informatika</em> na Matematičkom fakultetu u Beogradu, gde
+              nastavljam da istražujem i produbljujem svoje znanje u oblasti
+              računarstva, matematike i analize složenih problema, ali takođe u
+              slobodno vreme nastavljam da se bavim filozofijom, klasičnom
+              književnošću i istorijom, jer verujem da šire razumevanje sveta i
+              ljudskog iskustva dodatno obogaćuje moj pristup nauci i
+              tehnologiji. Moj cilj je da spojim sve ove interese kako bih
+              razvio duboko razumevanje o svetu oko sebe i primenio to znanje na
+              stvaranje inovativnih rešenja i projekata koji imaju stvarnu
+              vrednost. Takođe, planiram da u 2026. godini upišem i Fizički
+              fakultet u Beogradu.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <div class="features-grid">
-                
-                <a href="#projekti-cpp" class="card-link">
-                    <div class="feature-card">
-                        <div class="card-header">
-                            <div class="card-icon-wrapper">
-                                <span class="card-icon">📜</span>
-                            </div>
-                            <span class="status-progress">(in progress...)</span>
-                        </div>
-                        <h5 class="card-small-title">istraživački rad</h5>
-                        <h3 class="card-title">Ekonomija baze: Odabir optimalne osnove brojevnog sistema i primene</h3>
-                        <p class="card-text">
-                            Ovaj rad kroz matematičku analizu dokazuje da broj e (aproksimiran bazom 3) predstavlja 
-                            najefikasniju osnovu brojevnog sistema, te istražuje njegovu praktičnu primenu u računarstvu, 
-                            fraktalima i statistici.
-                        </p>
-                    </div>
-                </a>
+      <!-- AKADEMSKA SEKCIJA (PREDMETI) -->
+      <section class="academic-section" id="academic">
+        <div class="academic-badge">// STUDIJE</div>
+        <h2 class="academic-title">
+          Trenutne studije na Matematičkom fakultetu
+        </h2>
+        <p class="academic-subtitle">Smer: Informatika (Prva godina)</p>
 
-                <a href="https://kostaco.github.io/contextual-timeline/" class="card-link" target="_blank">
-                    <div class="feature-card">
-                        <div class="card-header">
-                            <div class="card-icon-wrapper">
-                                <span class="card-icon">🚀</span>
-                            </div>
-                            <span class="status-progress">(in progress...)</span>
-                        </div>
-                        <h5 class="card-small-title">aplikacija </h5>
-                        <h3 class="card-title">Contextual Timeline</h3>
-                        <p class="card-text">
-                            Contextual Timeline postavlja knjige i istoriju rame uz rame na jedinstvenoj, 
-                            interaktivnoj mapi. Kreiran pomoću vis.js biblioteke, ovaj veb alat ti pomaže 
-                            da vizuelno povežeš koncepte i sagledaš širi istorijski kontekst literature.
-                        </p>
-                    </div>
-                </a>
+        <div class="predmeti-container">
+          <div class="lista-wrapper">
+            <h3>Prvi semestar</h3>
+            <ul class="predmeti-lista">
+              <li>Uvod u informatiku</li>
+              <li>Uvod u programiranje</li>
+              <li>Digitalni zapis podataka</li>
+              <li>Linearna algebra i analitička geometrija</li>
+              <li>Diskretne strukture 1</li>
+              <li>Tehničko i naučno pisanje</li>
+            </ul>
+          </div>
 
-                <a href="materijali/AIuAstronomiji.pdf" class="card-link" target="_blank">
-                    <div class="feature-card">
-                        <div class="card-header">
-                            <div class="card-icon-wrapper">
-                                <span class="card-icon">📜</span>
-                            </div>
-                        </div>
-                        <h5 class="card-small-title">istraživački rad</h5>
-                        <h3 class="card-title">AI u astronomiji: Otkrivanje egzoplaneta i analiza svemirskih podataka</h3>
-                        <p class="card-text">
-                            Primena modela mašinskog učenja i dubokih neuronskih mreža u obradi 
-                            velikih astronomskih skupova podataka, sa fokusom na analizu svetlosnih 
-                            krivih i automatizovanu detekciju egzoplaneta.
-                        </p>
-                    </div>
-                </a>
+          <div class="lista-wrapper">
+            <h3>Drugi semestar</h3>
+            <ul class="predmeti-lista">
+              <li>Uvod u algoritme</li>
+              <li>Uvod u organizaciju i arhitekturu računara</li>
+              <li>Diskretne strukture 2</li>
+              <li>Analiza 1</li>
+              <li>Zetetika - kritičko rasuđivanje</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-                <a href="materijali/NadgledanoMasinskoUcenje.pdf" class="card-link" target="_blank">
-                    <div class="feature-card">
-                        <div class="card-header">
-                            <div class="card-icon-wrapper">
-                                <span class="card-icon">📜</span>
-                            </div>
-                        </div>
-                        <h5 class="card-small-title">istraživački rad</h5>
-                        <h3 class="card-title">Nadgledano mašinsko učenje</h3>
-                        <p class="card-text">
-                            Nagrađivan maturski rad koji pruža detaljan teorijski i praktični pregled algoritama 
-                            nadgledanog mašinskog učenja. Rad obuhvata analizu regresija, stabala odlučivanja, SVM-a 
-                            i neuronskih mreža, uz osvrt na istorijski razvoj i etičku budućnost veštačke inteligencije.
-                        </p>
-                    </div>
-                </a>
+      <!-- KONTAKT SEKCIJA SA FORMOM -->
+      <section class="contact-section" id="kontakt">
+        <div class="contact-container">
+          <div class="contact-badge">// KONTAKT</div>
+          <h2 class="contact-title">Napravimo nešto <u>zajedno</u>.</h2>
 
-                <a href="https://github.com/KostaCo/AstroJump" class="card-link" target="_blank">
-                    <div class="feature-card">
-                        <div class="card-header">
-                            <div class="card-icon-wrapper">
-                                <span class="card-icon">👾</span>
-                            </div>
-                        </div>
-                        <h5 class="card-small-title">video-igra </h5>
-                        <h3 class="card-title">AstroJump</h3>
-                        <p class="card-text">
-                            Endless-runner 2D igra razvijena u Unity okruženju. Projekat obuhvata implementaciju 
-                            fizike kretanja i skakanja, generisanje proceduralnih prepreka (asteroida), upravljanje 
-                            stanjima igre (Game Loop) i praćenje rezultata pomoću C# skripti.
-                        </p>
-                    </div>
-                </a>
+          <p class="contact-desc">
+            Otvoren sam za saradnju na projektima, konsultacije ili razmenu
+            ideja. Možeš me kontaktirati direktno putem forme ispod.
+          </p>
 
-                <!-- KARTICA 6 (Coming Soon Placeholder) -->
-                <div class="feature-card card-coming-soon">
-                    <div class="card-header">
-                        <div class="card-icon-wrapper">
-                            <span class="card-icon">⏳</span>
-                        </div>
-                    </div>
-                    <h3 class="card-title">Sledeći projekat...</h3>
-                    <p class="card-text">
-                        Uskoro...
-                    </p>
-                    <div class="coming-soon-badge">// COMING SOON</div>
-                </div>
+          <div class="contact-card-form">
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/mwpnvjep"
+              method="POST"
+            >
+              <div class="form-group">
+                <label for="ime">Ime i prezime</label>
+                <input
+                  type="text"
+                  id="ime"
+                  name="ime"
+                  placeholder="Tvoje ime"
+                  required
+                />
+              </div>
 
-            </div>
-        </section>
+              <div class="form-group">
+                <label for="email">Email adresa</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="ime@domen.com"
+                  required
+                />
+              </div>
 
-        <!-- SEKCIJA O MENI -->
-        <section class="about-section" id="about">
-            <div class="about-badge">// KO SAM JA </div>
-            <div class="about-container">
-                
-                <div class="about-image-wrapper">
-                    <img src="slike/ja.png" alt="Kosta Čolović" class="about-image">
-                </div>
+              <div class="form-group">
+                <label for="poruka">Poruka</label>
+                <textarea
+                  id="poruka"
+                  name="poruka"
+                  rows="5"
+                  placeholder="Napiši poruku..."
+                  required
+                ></textarea>
+              </div>
 
-                <div class="about-text-wrapper">
-                    
-                    <h2 class="about-title">O meni</h2>
-                    <p class="about-p">
-                        Zovem se Kosta Čolović i dolazim iz Beograda. Još od najranijeg detinjstva fasciniran sam prirodnim naukama, tehnologijom i računarima,
-                         što me je navelo da veoma rano počnem da eksperimentišem sa elektronikom i programiranjem.
-                    </p>
-                    <p class="about-p">
-                        Tokom osnovne škole isticao sam se na takmičenjima iz matematike, fizike i biologije, a zahvaljujući kontinuiranim rezultatima proglašen
-                         sam za učenika generacije. Od 2021. do 2025. pohađao sam Matematičku gimnaziju u Beogradu, okružen 
-                         ambicioznim vršnjacima i zahtevnim programom, gde sam se posvetio razvoju projekata iz oblasti veštačke inteligencije, 
-                         softverskog inženjeringa i istraživanja na granici između prirodnih nauka i filozofije.
-                          Sklopio sam desetine računara za prijatelje, profesore i klijente, pravio video-igrice, čitao o 
-                          crnim rupama, kvantnoj mehanici,
-                          filozofiji uma, etici veštačke inteligencije i bilo kojoj drugoj temi koja mi je zapala za oko. 
-                          Oduvek me je privlačilo razumevanje kako (i zašto) stvari funkcionišu na najdubljem nivou, bilo da se radi o algoritmima, prirodnim zakonima,
-                         astrofizičkim fenomenima ili strukturi računarskih sistema. 
-                           
-                    </p>
-                    <p class="about-p">
-                        U oktobru 2025. godine sam počeo da pohađam smer <em>Informatika</em> na Matematičkom fakultetu u Beogradu, gde nastavljam da istražujem i 
-                        produbljujem svoje znanje u oblasti računarstva, matematike i analize složenih problema, ali takođe u slobodno vreme nastavljam da se bavim 
-                        filozofijom, klasičnom književnošću i istorijom, jer verujem da šire razumevanje sveta i ljudskog iskustva dodatno obogaćuje moj pristup nauci i tehnologiji.
-                         Moj cilj je da spojim sve ove interese kako bih razvio duboko razumevanje o svetu oko sebe
-                          i primenio to znanje na stvaranje inovativnih rešenja i projekata koji imaju stvarnu vrednost. Takođe, planiram da u 2026. godini upišem i Fizički 
-                          fakultet u Beogradu.
-                        
-                    </p>
-                </div>
-            </div>
-        </section>
+              <button type="submit" class="form-submit-btn">
+                Pošalji poruku
+              </button>
+            </form>
+          </div>
 
-        <!-- AKADEMSKA SEKCIJA (PREDMETI) -->
-        <section class="academic-section" id="academic">
-            <div class="academic-badge">// STUDIJE </div>
-            <h2 class="academic-title">Trenutne studije na Matematičkom fakultetu</h2>
-            <p class="academic-subtitle">Smer: Informatika (Prva godina)</p>
+          <div class="alternative-mail">
+            ili mi piši direktno na:
+            <a href="mailto:fkcolovic@gmail.com">fkcolovic@gmail.com</a>
+          </div>
 
-            <div class="predmeti-container">
-                <div class="lista-wrapper">
-                    <h3>Prvi semestar</h3>
-                    <ul class="predmeti-lista">
-                        <li>Uvod u informatiku</li>
-                        <li>Uvod u programiranje</li>
-                        <li>Digitalni zapis podataka</li>
-                        <li>Linearna algebra i analitička geometrija</li>
-                        <li>Diskretne strukture 1</li>
-                        <li>Tehničko i naučno pisanje</li>
-                    </ul>
-                </div>
+          <div class="contact-socials">
+            <a
+              href="https://github.com/KostaCo"
+              target="_blank"
+              class="social-link"
+            >
+              <span class="social-icon"
+                ><i class="fa-brands fa-github"></i
+              ></span>
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kosta-%C4%8Dolovi%C4%87/"
+              target="_blank"
+              class="social-link"
+            >
+              <span class="social-icon"
+                ><i class="fa-brands fa-linkedin"></i
+              ></span>
+              LinkedIn
+            </a>
+            <a
+              href="https://www.researchgate.net/profile/Kosta-Colovic"
+              target="_blank"
+              class="social-link"
+            >
+              <span class="social-icon"
+                ><i class="fa-brands fa-researchgate"></i
+              ></span>
+              ResearchGate
+            </a>
+          </div>
 
-                <div class="lista-wrapper">
-                    <h3>Drugi semestar</h3>
-                    <ul class="predmeti-lista">
-                        <li>Uvod u algoritme</li>
-                        <li>Uvod u organizaciju i arhitekturu računara</li>
-                        <li>Diskretne strukture 2</li>
-                        <li>Analiza 1</li>
-                        <li>Zetetika - kritičko rasuđivanje</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- KONTAKT SEKCIJA SA FORMOM -->
-        <section class="contact-section" id="kontakt">
-            <div class="contact-container">
-                <div class="contact-badge">// KONTAKT </div>
-                <h2 class="contact-title">Napravimo nešto <u>zajedno</u>.</h2>
-                
-                <p class="contact-desc">
-                    Otvoren sam za saradnju na projektima, konsultacije ili razmenu ideja. Možeš me kontaktirati direktno putem forme ispod.
-                </p>
-
-                <div class="contact-card-form">
-                    <form id="contact-form" action="https://formspree.io/f/mwpnvjep" method="POST">
-                        <div class="form-group">
-                            <label for="ime">Ime i prezime</label>
-                            <input type="text" id="ime" name="ime" placeholder="Tvoje ime" required />
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">Email adresa</label>
-                            <input type="email" id="email" name="email" placeholder="ime@domen.com" required />
-                        </div>
-
-                        <div class="form-group">
-                            <label for="poruka">Poruka</label>
-                            <textarea id="poruka" name="poruka" rows="5" placeholder="Napiši poruku..." required></textarea>
-                        </div>
-
-                        <button type="submit" class="form-submit-btn">Pošalji poruku</button>
-                    </form>
-                </div>
-
-                <div class="alternative-mail">
-                    ili mi piši direktno na: <a href="mailto:fkcolovic@gmail.com">fkcolovic@gmail.com</a>
-                </div>
-
-                <div class="contact-socials">
-                    <a href="https://github.com/KostaCo" target="_blank" class="social-link">
-                        <span class="social-icon"><i class="fa-brands fa-github"></i></span> GitHub
-                    </a>
-                    <a href="https://www.linkedin.com/in/kosta-%C4%8Dolovi%C4%87/" target="_blank" class="social-link">
-                        <span class="social-icon"><i class="fa-brands fa-linkedin"></i></span> LinkedIn
-                    </a>
-                </div>
-
-                <div class="contact-footer">
-                    <p>© 2026 Kosta Čolović. Sva prava zadržana.</p>
-                </div>
-            </div>
-        </section>
+          <div class="contact-footer">
+            <p>© 2026 Kosta Čolović. Sva prava zadržana.</p>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -69,9 +69,10 @@ body {
 
 .logo-icon {
     color: var(--accent-pink);
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 15px; 
     font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 .nav-links {
@@ -135,7 +136,7 @@ body {
 
 .greeting {
     color: var(--accent-pink);
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 16px;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -143,10 +144,11 @@ body {
 
 .hero-icon {
     color: var(--accent-pink);
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 28px; 
     font-weight: 700;
     margin-bottom: 15px;
+    letter-spacing: -0.5px;
 }
 
 .hero-title {
@@ -159,7 +161,7 @@ body {
 
 .hero-subtitle {
     color: #8fa0a4;
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 14px;
     margin-bottom: 40px;
 }
@@ -196,9 +198,8 @@ body {
 }
 
 .btn-primary:hover {
-    border: 1px solid rgb(255, 255, 255); 
     transform: translateY(-2px);
-    
+    background-color: rgb(255, 80, 80);
 }
 
 .btn-secondary {
@@ -224,7 +225,7 @@ body {
 .academic-badge, 
 .contact-badge {
     color: var(--accent-pink);
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -310,7 +311,7 @@ body {
 
 .card-text {
     color: #8fa0a4; 
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 14px;
     line-height: 1.6;
     text-align: left;
@@ -334,7 +335,7 @@ body {
 
 .coming-soon-badge {
     margin-top: auto; 
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 12px;
     color: #657575;
     letter-spacing: 1px;
@@ -416,7 +417,7 @@ body {
 
 .academic-subtitle {
     color: #8fa0a4;
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     margin-bottom: 50px;
 }
 
@@ -512,7 +513,7 @@ body {
     display: block;
     color: var(--text-white);
     font-size: 14px;
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     margin-bottom: 8px;
 }
 
@@ -552,7 +553,7 @@ body {
 }
 
 .alternative-mail {
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 14px;
     margin-bottom: 40px;
 }
@@ -572,7 +573,7 @@ body {
     color: var(--text-light);
     text-decoration: none;
     font-size: 14px;
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     padding: 8px 16px;
     border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 6px;
@@ -593,7 +594,7 @@ body {
     padding-top: 30px;
     color: rgba(255, 255, 255, 0.2);
     font-size: 12px;
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
 }
 
 /* ================= LINKOVI OKO KARTICA ================= */
@@ -627,7 +628,7 @@ body {
 
 .status-progress {
     color: #757575; 
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -637,7 +638,7 @@ body {
 .card-small-title {
     font-size: 12px;
     color: var(--text-light);
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
     font-weight: 100;
 }
 
